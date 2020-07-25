@@ -1,5 +1,13 @@
 # Deep Learning on AWS 학습 자료집(http://bit.ly/dlonaws)
 
+> AWS 학습 링크집 시리즈
+- AWS 학습 자료집 http://bit.ly/aws-study-resource
+- AWS 공인 솔루션스 아키텍트 - 어소시에이트 수험 가이드  http://bit.ly/sacertguide
+- AWS 공인 개발자 - 어소시에이트 수험 가이드  http://bit.ly/devcertguide
+- AWS 보안 관련 컨텐츠 모음집  http://bit.ly/secontents
+- AWS 딥러닝 학습 자료 모음집 http://bit.ly/dlonaws
+- 2019년 re:Invent 에서 공개된 AI/ML관련 서비스 소개 http://bit.ly/2019-ml-recap
+
 ## 수업 데모  
 [데모1: 데이터 과학을 위한 파이썬 패키지 소개](https://github.com/serithemage/AWS_AI_Study/blob/master/DLonAWS/Deep_Learning_on_AWS_demo1.ipynb)   
 [데모2: 퍼셉트론과 활성화 함수의 구현](https://github.com/serithemage/AWS_AI_Study/blob/master/DLonAWS/Deep_Learning_on_AWS_demo2.ipynb)  
@@ -10,16 +18,16 @@
 
 [Lab1 실습 안내서](http://aws-class-data.s3-website.ap-northeast-2.amazonaws.com/DL/lab-1-setup.html) Deep Learning AMI 인스턴스 설정 및 다층 퍼셉트론 신경망 모델 실행  
 
-- [Lab1 jupyter notebook](DL_on_AWS_Lab1.ipynb)
-- [Gluon으로 구현한 MNIST](https://github.com/gluon-api/gluon-api/blob/master/tutorials/mnist-gluon-example.ipynb)  
-- [Tensorflow Keras Fashion MNIST](https://www.tensorflow.org/tutorials/keras/basic_classification)  
+- [Lab1 jupyter notebook](Lab1_ko.ipynb)
+  - [Gluon으로 구현한 MNIST](https://github.com/gluon-api/gluon-api/blob/master/tutorials/mnist-gluon-example.ipynb)  
+  - [Tensorflow Keras Fashion MNIST](https://www.tensorflow.org/tutorials/keras/basic_classification)  
 
 [Lab2 실습 안내서](http://aws-class-data.s3-website.ap-northeast-2.amazonaws.com/DL/lab-2-cnn.html) CIFAR10 데이터 세트에서의 이미지 예측을 위한 합성곱 신경망(CNN) 교육  
 
-- [Lab2 jupyter notebook](DL_on_AWS_Lab2.ipynb)
-- [Gluon으로 구현한 CIFAR10 이미지 분류](http://gluon.ai/chapter_computer-vision/kaggle-gluon-cifar10.html)
-- [MXNet Gluon Crash Course(한국어 학습서)](https://github.com/serithemage/AWS_AI_Study/blob/master/Gluon_Crash_Course_on_Colab.ipynb) MXNet의 고급 API인 Gluon의 처음 사용자용 튜토리얼
-- [스탠포드 CS231n - Convolutional Neural Networks for Visual Recognition 강의 노트 한글 번역](http://aikorea.org/cs231n/convolutional-networks/)  
+- [Lab2 jupyter notebook](Lab2_ko.ipynb)
+  - [Gluon으로 구현한 CIFAR10 이미지 분류](http://gluon.ai/chapter_computer-vision/kaggle-gluon-cifar10.html)
+  - [MXNet Gluon Crash Course(한국어 학습서)](https://github.com/serithemage/AWS_AI_Study/blob/master/Gluon_Crash_Course_on_Colab.ipynb) MXNet의 고급 API인 Gluon의 처음 사용자용 튜토리얼
+  - [스탠포드 CS231n - Convolutional Neural Networks for Visual Recognition 강의 노트 한글 번역](http://aikorea.org/cs231n/convolutional-networks/)  
 
 [Lab3 실습 안내서](http://aws-class-data.s3-website.ap-northeast-2.amazonaws.com/DL/lab-3-lambda.html) AWS Lambda에서의 예측을 위해 교육된 모델 배포  
 
@@ -31,34 +39,53 @@
 [초보자를 위한 Jupyter Notebook 소개 영상(유튜브)](https://www.youtube.com/watch?v=sqMYhAIaYZQ)  
 [Deep Learning Book - Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/)  
 
-## AWS AI 서비스 관련 온라인 강의(무료)  
+## AWS AI 서비스 관련 온라인 강의 
 
 [AWS 기계 학습 온라인 코스](https://aws.amazon.com/ko/training/learning-paths/machine-learning/)  
-[edX Amazon SageMaker: Simplifying Machine Learning Application Development](https://www.edx.org/course/simplifying-machine-learning-app-development-with-amazon-sagemaker)  
+[Getting Started with AWS Machine Learning(Coursera)](https://ko.coursera.org/learn/aws-machine-learning)  
+[Amazon SageMaker: Simplifying Machine Learning Application Development(edX)](https://www.edx.org/course/simplifying-machine-learning-app-development-with-amazon-sagemaker)  
+[AWS Computer Vision: Getting Started with GluonCV](https://ko.coursera.org/learn/aws-computer-vision-gluoncv)  
 
 [aws.training AI 온라인 강의(전체 목록)](https://www.aws.training/Training?searchPhrase=%EB%B6%84%EC%95%BC-%EC%9D%B8%EA%B3%B5%20%EC%A7%80%EB%8A%A5(AI)&searchPhrase=%ED%95%9C%EA%B5%AD%EC%96%B4&searchPhrase=enrollment_id_1)  
-[Introduction to Machine Learning (한국어)](https://www.aws.training/learningobject/video?id=22177)  
-[Introduction to Deep Learning(한국어)](https://www.aws.training/learningobject/video?id=22242)  
-[Introduction to AWS Machine Learning Services (한국어)](https://www.aws.training/learningobject/video?id=22125)  
-[Introduction to Artificial Intelligence(한국어)](https://www.aws.training/learningobject/video?id=22239)  
-[Introduction to Amazon SageMaker(한국어)](https://www.aws.training/learningobject/video?id=22245)  
-[Introduction to Amazon Lex(한국어)](https://www.aws.training/learningobject/video?id=22175)  
-[Introduction to Amazon Polly(한국어)](https://www.aws.training/learningobject/video?id=22165)  
-[Introduction to Amazon Rekognition(한국어)](https://www.aws.training/learningobject/video?id=22172)  
-[Introduction to Amazon Comprehend(한국어)](https://www.aws.training/learningobject/video?id=22248)  
+  - [Introduction to Machine Learning (한국어)](https://www.aws.training/learningobject/video?id=22177)  
+  - [Introduction to Deep Learning(한국어)](https://www.aws.training/learningobject/video?id=22242)  
+  - [Introduction to AWS Machine Learning Services (한국어)](https://www.aws.training/learningobject/video?id=22125)  
+  - [Introduction to Artificial Intelligence(한국어)](https://www.aws.training/learningobject/video?id=22239)  
+  - [Introduction to Amazon SageMaker(한국어)](https://www.aws.training/learningobject/video?id=22245)  
+  - [Introduction to Amazon Lex(한국어)](https://www.aws.training/learningobject/video?id=22175)  
+  - [Introduction to Amazon Polly(한국어)](https://www.aws.training/learningobject/video?id=22165)  
+  - [Introduction to Amazon Rekognition(한국어)](https://www.aws.training/learningobject/video?id=22172)  
+  - [Introduction to Amazon Comprehend(한국어)](https://www.aws.training/learningobject/video?id=22248)  
+
 ※수강을 위해서는 AWS 트레이닝 포털(aws.training)에 계정등록을 하실 필요가 있습니다.
 
 
 * * *
 
-## 워크샵 자료
-[AWS Samples - Jupyter Notebook](https://github.com/aws-samples?language=jupyter+notebook)  
-[AWS AI Bootcamp Labs](https://github.com/aws-samples/aws-ai-bootcamp-labs)  
-[DevDay SageMaker 핸즈온랩 안내서(한글)](https://github.com/aws-samples/aws-ai-ml-workshop-kr/blob/master/doc/labguide/Korean/Dev%20Day%20Seoul%20Hands-on%206th%20November%202018.pdf)  
+## 실습 및 워크샵 자료
+
+### [AWS Korea AI/ML workshop](https://www.sagemaker-workshop-kr.com/)
+> SageMaker를 포함해 다양한 AI/ML 워크샵 자료가 총 망라되어 있습니다.  
+
+### [AWS Korea AI/ML 관련 컨텐츠 모음집](https://www.sagemaker-workshop-kr.com/kr/references.html)
+> 한국 AWS SA들이 직접 제작하거나 번역한 방댜핸 양의 컨텐츠 모음집 입니다.
+
+[Amazon SageMaker 예제(영문)](https://github.com/awslabs/amazon-sagemaker-examples)  
+[SageMaker 2019 업데이트 기능 예제 노트북(한글)](https://github.com/daekeun-ml/sagemaker-reinvent2019-kr)  
+[Amazon SageMaker Jupyter Notebook Samples(영문)](https://github.com/aws-samples?language=jupyter+notebook)  
+[Amazon SageMAker Hands-on(한글)](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/contribution/seongshin/aws-ai-ml-immersionday-kr)  
+[Amazon Comprehend의 custom entity recognizer 생성을 위한 노트북과 레시피(한글)](https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/contribution/seongshin/amazon-comprehend-custom-entity_kr)  
+
+[AWS AI Bootcamp Labs(영문)](https://github.com/aws-samples/aws-ai-bootcamp-labs)  
+
 [AWS DeepLens기반 시각인식 ML](https://github.com/awskrug/datascience-group/tree/master/workshop-DeepLens)  
 [2018 AWSKRUG hands-on: Amazon SageMaker를 사용한 고객 이탈 예측과 색상 분류 모델 만들기](https://github.com/awskrug/handson-labs-2018/tree/master/DataAnalysis/2_ModelTraining)  
-[Sagemaker Workshop](https://sagemaker-workshop.com/)  
+[Sagemaker Workshop(영문)](https://sagemaker-workshop.com/)  
 [Serverless AI Workshop](https://github.com/aws-samples/serverless-ai-workshop) AWS Lambda와 SageMaker로 구축하는 서버리스 AI 서비스 구축 워크샵  
+[EKS Kubeflow Workshop(영문)](https://github.com/aws-samples/eks-kubeflow-workshop)  
+[Amazon Personalize Workshop(한글)](http://bit.ly/amazon-personalize-workshop)  
+[Amazon Forecast Samples](https://github.com/aws-samples/amazon-forecast-samples)  
+
 
 * * *
 
@@ -134,6 +161,15 @@
 - [Amazon SageMaker 자동 모델 튜닝 기능 출시 – 기계 학습을 위한 인공 지능](https://aws.amazon.com/ko/blogs/korea/sagemaker-automatic-model-tuning/)
 - [이상 탐지를 위한 Amazon SageMaker 의 Random Cut Forest 빌트인 알고리즘](https://aws.amazon.com/ko/blogs/korea/use-the-built-in-amazon-sagemaker-random-cut-forest-algorithm-for-anomaly-detection/)
 
+### [Amazon Forecast](https://aws.amazon.com/ko/forecast/)
+아마존닷컴처럼 Amazon Forecast로 시계열 예측하기  
+  - [세션 영상](https://www.youtube.com/watch?v=4MuVRFQVx8Y)  
+  - [슬라이드](https://www.slideshare.net/awskorea/amazon-forecast-aws-gsshop-aws-summit-seoul-2019?qid=f999a7d1-9a38-4eaa-884d-243cc1e80819&v=&b=&from_search=1)  
+
+### [Amazon Personalize](https://aws.amazon.com/ko/personalize/)
+개인화 및 추천 기능의 맞춤형 AI 서비스 혁명 : Amazon Personalize    
+  - [세션 영상](https://www.youtube.com/watch?v=c_bC_4nPCLw)
+  - [슬라이드](https://www.slideshare.net/awskorea/ai-amazon-personalize-aws-aws-aws-summit-seoul-2019?qid=5ce02961-cd31-4761-b937-69cab227c678&v=&b=&from_search=3)
 
 ### 그 밖의 AWS AI서비스 관련 자료
 [AWS에서의 기계 학습](https://aws.amazon.com/ko/machine-learning/)  
@@ -190,7 +226,10 @@
 [Deep Learning을 위한 컴퓨터 구조](http://www.mysnu.org/m/community/newtechnology.php?search_order=&search_part=&c_cate1=&mode=v&idx=10586&thisPageNum=)  
 [지적 대화를 위한 깊고 넓은 딥러닝 (Feat. TensorFlow) - PyCon APAC 2016](https://www.youtube.com/watch?v=soJ-wDOSCf4)  
 [Amazon Translate, 한국어를 비롯 8개 언어 추가 지원 시작](https://aws.amazon.com/ko/blogs/korea/amazon-translate-korean/)  
+[Amazon Rekognition으로 트와이스 멤버 얼굴 구별하기](https://towardsdatascience.com/building-k-pop-idol-identifier-with-amazon-rekognition-92302442d763)  
 
-## AWS re:Invent 2018
-[AWS re:Invent 2018 AI & ML 관려 세션 영상 목록(YouTube)](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)
+## AWS re:Invent AI & ML 관련 세션 영상 목록(YouTube)
+[2019 AWS re:Invent](https://www.youtube.com/playlist?list=PLV6rN8mnHlrfrGupPQkoif-HEp3lWiXdn)  
+[2018 AWS re:Invent](https://www.youtube.com/playlist?list=PLhr1KZpdzukdExxUr05-WIpdVYPWjgi43)  
+
 
